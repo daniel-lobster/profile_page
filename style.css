@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 970px;
+    margin: 0 auto;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.top_nav{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    height: 80px;
+}
+.top_nav_left{
+    display:flex;
+    align-items: center;
+
+}
+.top_nav_left > p, .top_nav_left > h1{
+    margin: 0 15px;
+}
+.sign_out{
+    background-color: navy;
+    padding: 7px;
+}
+.bottom_container{
+    display:flex;
+    padding: 10px 80px;
+}
+.left_column{
+    flex:2;
+    background-color: aquamarine;
+}
+.right_column{
+    flex:1;
+    background-color: aquamarine;
+}
+
+.box{
+    margin: 10px;
+    background-color: blanchedalmond;
+}
+.blue_bar{
+    height: 70px;
+    background-color: darkturquoise;
+}
+.space{
+    height: 30px;
+}
+/* why is this not working */
+.white_bar{
+    margin: 12px;
+    padding: 12px;
+}
+.white_bar > h3, .white_bar > h4, .white_bar > h5, .white_bar > p, .white_bar > a {
+    margin: 5px;
+
+}
+.grey_bar{
+
+    background-color: grey;
+    color: white;
+    padding: 15px;
+    align-items: center;
+    display: flex;
+    font-size: 12px;
+}
+.image-text{
+    display: flex;
+    height: 15px;
+    margin: 5px;
+}
+.after_image{
+    margin-left: 15px;
+}
+.lobster{
+    height:100px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.number{
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    margin: 7px;
+    padding: 10px;
+}
+.request, .name, .accept{
+    display: flex;
+    align-items: center;
+}
+
+.profile_pic{
+    border-radius: 50%;
+}
+
+.request img{
+    height:25px;
+    margin-right: 10px;
+}
+.request{
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.view_more{
+    border: 2px;
+    border-color: grey;
+    border-style: solid;
+    align-items: center;
+    padding: 10px;
+}
